@@ -1,5 +1,7 @@
 <?php 
 
+  get_header();
+
   $wp_query = new WP_Query('posts_per_page=5&orderby=title');
 
 
@@ -17,6 +19,7 @@
     echo 'No Content found!';
   endif;
 
+  get_footer();
 ?>
 
 

@@ -3,3 +3,10 @@ Theme Name: Learn WordPress PHP Code
 Author: Tofic-88 from Scipion X Solution Team
 Version: 1.0
 */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: white;
+}
