@@ -6,5 +6,8 @@ function mytheme_files() {
 
 add_action( 'wp_enqueue_scripts', 'mytheme_files' );
 
-
-    
+// Navigation Menus: from here we save both location on Wordpress
+register_nav_menus( array(
+  'primary' => __( 'Primary Menu'),
+  'footer' => __( 'Footer Menu'),
+));
