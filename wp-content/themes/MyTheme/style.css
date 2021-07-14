@@ -8,5 +8,21 @@ body {
   font-family: Arial, sans-serif;
   font-size: 14px;
   color: #333;
-  background: white;
+}
+
+a:link,
+a:visited {
+  color: #006ec3;
+}
+
+p {
+  line-height: 1.65em;
+}
+
+/*General Layout */
+div.container {
+  max-width: 920px;
+  margin: 0 auto;
+  padding-right: 20px;
+  padding-left: 20px;
 }

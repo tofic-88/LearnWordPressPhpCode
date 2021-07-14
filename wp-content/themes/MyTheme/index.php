@@ -9,7 +9,7 @@
       
         while ($wp_query->have_posts()) : $wp_query->the_post();?>
 
-        <h3><?php the_title();?></h3>
+        <h3><a href="<?php get_permalink(); ?>"><?php the_title();?></a></h3>
         <p><?php the_content(); ?></p>  
 
         <?php  wp_reset_postdata();
