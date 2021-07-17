@@ -1,14 +1,10 @@
 <?php 
-
-/*
-Template Name: Special Layout
-*/
-
   get_header();
-                      if ( $wp_query->have_posts()) :
-                        while ($wp_query->have_posts()) : $wp_query->the_post();?>
+  /*$wp_query = new WP_Query('posts_per_page=5&orderby=title');*/
+                      if ( have_posts()) :
+                        while (have_posts()) : the_post();?>
                               <article class="post">
-                                <h2><?php the_title();?>: I am using Special Layout</h2>
+                                <h2><?php the_title();?> | I am the single.php file</h2>
                                 <p><?php the_content(); ?></p> 
                               </article>
                         <?php  wp_reset_postdata();
@@ -18,6 +14,5 @@ Template Name: Special Layout
                   endif; 
   get_footer();
 ?>
-
 
 

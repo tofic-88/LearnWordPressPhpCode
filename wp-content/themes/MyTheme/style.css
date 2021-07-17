@@ -102,11 +102,12 @@ article.post:last-of-type {
 }
 
 /* Page Layout */
+/*
 article.page h2 {
   font-size: 225%;
   margin-bottom: 15px;
 }
-
+*/
 /* Children Links Navigation */
 .children-links {
   margin-bottom: 20px;
