@@ -8,6 +8,7 @@
           <?php 
           
           if(has_children() OR $post->post_parent > 0 ){  ?>
+
         <nav class="site-nav children-links clearfix">
                     <span class="parent-link"><a href="<?php get_permalink(get_top_ancestor_id()); ?>"><?php echo get_the_title(get_top_ancestor_id()); ?></a></span>
                     <ul>
@@ -20,11 +21,10 @@
                               ?>
                     </ul>
          </nav> &nbsp; <?php  } ?>
+
           <h2><?php the_title();?> | I am the page.php file</h2>
           <p><?php the_content(); ?></p> 
         </article>
-        
-        <button type="button" class="btn btn-success">Success</button>
 
         
         <?php  wp_reset_postdata();

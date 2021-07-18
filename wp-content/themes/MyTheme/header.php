@@ -9,12 +9,16 @@
 <body <?php body_class(); ?>>
 
 <div class="container">
+  
   <!-- site-header -->
   <header class="site-header">
-      <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-      <h5><?php bloginfo('description'); ?></h5>
 
-      <nav class="site-nav">
+      <div class="container p-3 my-3 bg-dark text-white">
+        <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
+        <h5><?php bloginfo('description'); ?></h5>
+      </div>
+
+      <nav class="nav nav-pills site-nav">
           <?php
              $args = array(
                'theme_location' => 'primary'
