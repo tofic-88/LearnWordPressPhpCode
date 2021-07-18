@@ -38,6 +38,7 @@ article.post:last-of-type {
 /*Header*/
 .site-header {
   border-bottom: 2px solid #999;
+  margin-bottom: 5px;
 }
 
 /*Footer*/
@@ -110,7 +111,7 @@ article.page h2 {
 */
 /* Children Links Navigation */
 .children-links {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px;*/
   font-size: 80%;
 }
 
