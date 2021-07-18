@@ -24,6 +24,9 @@
           <p><?php the_content(); ?></p> 
         </article>
         
+        <button type="button" class="btn btn-success">Success</button>
+
+        
         <?php  wp_reset_postdata();
        endwhile;
 

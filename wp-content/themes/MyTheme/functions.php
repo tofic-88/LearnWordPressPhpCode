@@ -1,11 +1,11 @@
 <?php 
 
-
-
 /*Loading style.css stylesheet file */
-
 function mytheme_files() { 
-  wp_enqueue_style( 'style', get_stylesheet_uri()); 
+
+  wp_enqueue_style( 'bootstrap4', get_stylesheet_directory_uri() . '/css/bootstrap.min.css' ); /* Including our local Bootstrap 4 */
+  wp_enqueue_style( 'style', get_stylesheet_uri()); /* Including own principal CSS */
+
 } 
 
 add_action( 'wp_enqueue_scripts', 'mytheme_files' );
