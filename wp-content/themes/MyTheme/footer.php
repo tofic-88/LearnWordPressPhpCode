@@ -13,7 +13,7 @@
                       wp_nav_menu( $args );  
                     ?>
               </nav>
-
+              <br>
               <p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
           </div>
 
