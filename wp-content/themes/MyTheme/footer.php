@@ -14,7 +14,7 @@
                     ?>
               </nav>
               <br>
-              <p><?php bloginfo('name'); ?> - &copy; <?php echo date('Y'); ?></p>
+              <p><?php bloginfo('name'); ?> - &copy; <?php echo date("F j, Y, g:i a"); ?></p>
           </div>
 
     </footer><!-- /site-footer -->
