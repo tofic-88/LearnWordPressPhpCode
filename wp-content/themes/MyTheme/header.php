@@ -13,7 +13,7 @@
   <!-- site-header -->
   <header class="site-header">
 
-      <div class="container p-3 my-3 bg-dark text-white">
+      <div class="container p-3 my-3 bg-dark text-white header-container">
         <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
         <h5><?php bloginfo('description'); ?></h5>
       </div>
