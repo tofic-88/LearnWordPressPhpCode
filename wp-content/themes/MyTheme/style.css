@@ -34,7 +34,26 @@ article.post {
 article.post:last-of-type {
   border-bottom: none;
 }
+/*The Flex Box*/
+.flex-container {
+  display: flex;
+}
 
+.flex-container > div {
+  margin: 5px;
+  padding: 5px;
+}
+
+.flex-container .left-column {
+  width: 45%;
+}
+
+.flex-container .middle-column {
+  width: 35%;
+}
+.flex-container .right-column {
+  width: 20%;
+}
 /*Header*/
 .site-header {
   border-bottom: 2px solid #999;
